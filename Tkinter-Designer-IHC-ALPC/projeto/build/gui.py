@@ -25,7 +25,7 @@ def acessar():
     senha = entry_2.get()
     
     if usuario == "aluno" and senha == "123":
-        def run_python_file():
+        def rodar_arquivo():
             file_path = "C:/Users/1144008644/Documents/projeito-ihc-pt2/Tkinter-Designer-IHC-ALPC/projeto2/build/gui.py"  # Replace with the path to your Python file
 
             # Execute o arquivo Python usando subprocess
@@ -51,7 +51,7 @@ def acessar():
 
             root.mainloop()
         print("Logou!Bem vindo!")
-        run_python_file()
+        rodar_arquivo()
     else:
         print("Login inválida!")
 
